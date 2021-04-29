@@ -1,0 +1,62 @@
+/*DOCTYPE CSS*/
+
+body{
+    background-color: #AEFFC7;
+    height: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFC178 ;
+    
+}
+
+h1{
+    height: 32px;
+    width: 90vw;
+    margin: auto;
+}
+
+.chat {
+    border-style: ridge;
+    border-color: #FFC178;
+    background-color: #BEFCFF;
+    min-height: 70vh;
+    width: 90vw;
+    margin: auto;
+}
+
+p{
+    background-color: #AEFFC7;
+    height: auto;
+    min-height: 30px;
+    width: auto;
+    border-style:double;
+    border-color: #FFC178;
+    font-weight: 800;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+
+.chatters{
+    border-style:ridge;
+    border-color: #FFC178;
+    background-color: #BEFCFF;
+    width: 40vw;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#chatter1{
+    position: absolute;
+    left: 5vw;
+}
+
+#chatter2{
+    position: absolute;
+    right: 5vw;
+}
+
+input{
+    margin: 4px;
+}
+

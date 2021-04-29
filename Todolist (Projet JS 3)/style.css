@@ -1,0 +1,28 @@
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.form-row{
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    border: black solid 1px;
+  }
+  
+  .form-row span {
+    margin-left: 10px;
+  }
+
+  ul{
+      min-height: 35vh;
+      height: auto;
+      width: auto;
+      margin: 20px;
+      padding: 40px;
+      padding-top: 1px;
+      background-color:bisque ;
+      border: black solid 1px;
+      list-style-type:circle;
+  }
