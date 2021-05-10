@@ -1,0 +1,2 @@
+La maquette ci-jointe a été réalisée en m'inspirant de l'univers et des codes de la chaine youtube RapidsCrew (https://www.youtube.com/channel/UCa7X_xpZob-7Cl3spe0aOoA).
+Ce n'est pas une maquette d'une application officiellement prévue par RapidsCrew ou ses partenaires.
