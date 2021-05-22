@@ -1,0 +1,138 @@
+@font-face {
+    font-family: product-sans;
+    src: url(./product-sans/Product\ Sans\ Regular.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: product-sans;
+    height: 70px;
+}
+
+header>#logo-menu{
+    background-color: grey;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header>#logo-menu>img{
+    height: 15px;
+    width: 15px;
+    margin: auto;
+    filter:invert(100%)
+}
+
+header>#profilepic{
+    background-color: royalblue;
+    color: white;
+    border: black 1px solid;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header>li{
+    margin: 0px 5px 0px 5px;
+    
+    font-weight: bold;
+}
+
+
+.logo{
+    font-family: product-sans;
+    font-size: 100px;
+    width: 350px;
+    height: 100px;
+    margin: 100px auto 50px auto
+}
+
+
+.searchbar{
+    background-color: lightgrey;
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchbar>img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px 0px 15px;
+}
+
+.searchbar>input{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    font-size: large;
+}
+.searchbar>input:focus{
+    outline: none;
+}
+
+#dark-mode{
+    background-color: lightgrey;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dark-mode>#btn-dark-mode{
+    background-color: rgb(71, 68, 68);
+    height: 45px;
+    width: 90px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dark-mode>#btn-dark-mode>#cursor-dark-mode{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+#dark-mode>#btn-dark-mode>#cursor-white-mode{
+    display:none;
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+body>#desc-btn{
+    font-family: product-sans;
+    position: absolute;
+    top: 40px;
+    left: 16px;
+}
